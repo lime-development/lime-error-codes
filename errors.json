@@ -1,0 +1,42 @@
+{
+  "F0": {
+    "en": "Implementation must be not 0x0.",
+    "tech": "MemeFactory:initialize Implementation must be not 0x0."
+  },
+  "F1": {
+    "en": "Insufficient token balance.",
+    "tech": "MemeFactory:withdrawProcotolFee Insufficient token balance."
+  },
+  "F2": {
+    "en": "Insufficient allowance.",
+    "tech": "MemeFactory:createERC20 Insufficient allowance."
+  },
+  "F3": {
+    "en": "Pool already initialized.",
+    "tech": "MemeFactory:createERC20 Pool already initialized."
+  },
+  "F4": {
+    "en": "Invalid implementation.",
+    "tech": "MemeFactory:updateImplementation Invalid implementation."
+  },
+  "F5": {
+    "en": "Invalid startIndex.",
+    "tech": "MemeFactory:updateTokensBatch UpdateTokensBatch: Invalid startIndex."
+  },
+  "F6": {
+    "en": "Invalid startIndex.",
+    "tech": "MemeFactory:collectPoolsFees UpdateTokensBatch: Invalid startIndex."
+  },
+  "F7": {
+    "en": "Invalid startIndex.",
+    "tech": "MemeFactory:pauseTokensBatch UpdateTokensBatch: Invalid startIndex."
+  },
+  "F8": {
+    "en": "Invalid startIndex.",
+    "tech": "MemeFactory:unpauseTokensBatch UpdateTokensBatch: Invalid startIndex."
+  },
+  "UNKNOWN": {
+    "en": "Unknown error.",
+    "tech": "Error code not find."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@lime-development/lime-errors-codes",
+  "version": "1.0.0",
+  "main": "dist/getErrorMessage.js",
+  "description": "This package provides short error codes and human-readable messages for [Lime smart contracts](https://github.com/lime-development/lime-contracts), supporting multilingual output (currently English).",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "node test.mjs"
+  },
+  "keywords": [],
+  "author": "lime-development",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.15",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  }
+}
