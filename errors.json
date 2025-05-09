@@ -11,29 +11,121 @@
     "en": "Insufficient allowance.",
     "tech": "MemeFactory:createERC20 Insufficient allowance."
   },
-  "F3": {
-    "en": "Pool already initialized.",
-    "tech": "MemeFactory:createERC20 Pool already initialized."
-  },
   "F4": {
     "en": "Invalid implementation.",
     "tech": "MemeFactory:updateImplementation Invalid implementation."
   },
   "F5": {
     "en": "Invalid startIndex.",
-    "tech": "MemeFactory:updateTokensBatch UpdateTokensBatch: Invalid startIndex."
+    "tech": "MemeFactory:updateTokensBatch: Invalid startIndex."
   },
   "F6": {
     "en": "Invalid startIndex.",
-    "tech": "MemeFactory:collectPoolsFees UpdateTokensBatch: Invalid startIndex."
+    "tech": "MemeFactory:collectPoolsFees: Invalid startIndex."
   },
   "F7": {
     "en": "Invalid startIndex.",
-    "tech": "MemeFactory:pauseTokensBatch UpdateTokensBatch: Invalid startIndex."
+    "tech": "MemeFactory:pauseTokensBatch: Invalid startIndex."
   },
   "F8": {
     "en": "Invalid startIndex.",
-    "tech": "MemeFactory:unpauseTokensBatch UpdateTokensBatch: Invalid startIndex."
+    "tech": "MemeFactory:unpauseTokensBatch: Invalid startIndex."
+  },
+  "L0": {
+    "en": "Amounts must be positive.",
+    "tech": "GetLiquidityHelper:getSqrtPriceX96: Amounts must be positive."
+  },
+  "M0": {
+    "en": "poolToken must be not 0x0.",
+    "tech": "ERC20MEME:initializer: poolToken must be not 0x0."
+  },
+  "M1": {
+    "en": "Author must be not 0x0",
+    "tech": "ERC20MEME:initializer: Author must be not 0x0."
+  },
+  "M2": {
+    "en": "The withdrawAmount greater than zero is required for a mint.",
+    "tech": "ERC20MEME:mint: The withdrawAmount greater than zero is required for a mint."
+  },
+  "M3": {
+    "en": "Amount must be greater than zero.",
+    "tech": "ERC20MEME:burn: Amount must be greater than zero."
+  },
+  "M4": {
+    "en": "Amount must be greater than zero.",
+    "tech": "ERC20MEME:calculatePrice: Amount must be greater than zero."
+  },
+  "M5": {
+    "en": "Amount too large.",
+    "tech": "ERC20MEME:calculateValue: Amount too large."
+  },
+  "M6": {
+    "en": "Total collected pool fees is zero.",
+    "tech": "ERC20MEME:collectPoolFees: Both amount are zero."
+  },
+  "P0": {
+    "en": "Pool already initialized.",
+    "tech": "ERC20PoolV3:initializePool: Pool already initialized."
+  },
+  "P1": {
+    "en": "Pool creation failed.",
+    "tech": "ERC20PoolV3:createPool: Pool creation failed."
+  },
+  "P2": {
+    "en": "Pool must exist.",
+    "tech": "ERC20PoolV3:setupPrice: Pool must exist."
+  },
+  "P3": {
+    "en": "Both tokens must have not zero balance.",
+    "tech": "ERC20PoolV3:setupPrice: Both tokens must have not zero balance."
+  },
+  "P4": {
+    "en": "Pool is unlocked before initialize.",
+    "tech": "ERC20PoolV3:setupPrice: Pool is unlocked before initialize."
+  },
+  "P5": {
+    "en": "Pool initialization failed.",
+    "tech": "ERC20PoolV3:setupPrice: Pool initialization failed."
+  },
+  "P6": {
+    "en": "Pool must exist.",
+    "tech": "ERC20PoolV3:swap: Pool must exist."
+  },
+  "P7": {
+    "en": "Insufficient balance for swap.",
+    "tech": "ERC20PoolV3:swap: Insufficient balance for swap."
+  },
+  "P8": {
+    "en": "Slippage too high.",
+    "tech": "ERC20PoolV3:swap: Slippage too high."
+  },
+  "P9": {
+    "en": "Callback must be from pool.",
+    "tech": "ERC20PoolV3:uniswapV3SwapCallback: Callback must be from pool."
+  },
+  "PA": {
+    "en": "Pool must exist.",
+    "tech": "ERC20PoolV3:addLiquidity: Pool must exist."
+  },
+  "PB": {
+    "en": "Insufficient token balance.",
+    "tech": "ERC20PoolV3:addLiquidity: Insufficient token balance."
+  },
+  "PC": {
+    "en": "Pool is locked.",
+    "tech": "ERC20PoolV3:addLiquidity: Pool is locked."
+  },
+  "PD": {
+    "en": "AddLiquidity failed - Added amount0 or amount1 is 0.",
+    "tech": "ERC20PoolV3:addLiquidity: failed - Added amount0 or amount1 is 0."
+  },
+  "PE": {
+    "en": "AddLiquidity failed - liquidity didn't increase.",
+    "tech": "ERC20PoolV3:addLiquidity: failed - liquidity didn't increase."
+  },
+  "PF": {
+    "en": "Callback must be from pool.",
+    "tech": "ERC20PoolV3:uniswapV3MintCallback: Callback must be from pool."
   },
   "UNKNOWN": {
     "en": "Unknown error.",
